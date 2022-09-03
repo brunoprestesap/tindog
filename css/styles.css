@@ -23,7 +23,7 @@ h3 {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 .navbar{
@@ -54,6 +54,7 @@ h3 {
   transform: rotate(25deg);
   width: 20%;
   position: absolute;
+  right: 23%;
 }
 
 /* Download Buttons */
@@ -134,6 +135,38 @@ h3 {
   padding: 3% 2%;
 }
 
+/* CTA Secction */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 3% 15%;
+}
+
+.text-cta {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+/* Footer Secction */
+
+#footer {
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.p-footer {
+  color: #BEBEBE;
+}
+
+.ico-footer {
+  margin: 10px 15px;
+}
+
+
+/* Query Media */
+
 @media (max-width: 990px) {
   #title {
     text-align: center;
@@ -152,5 +185,9 @@ h3 {
 
   .testimonial-text {
     font-size: 1.0rem;
+  }
+
+  .col-pricing {
+    padding: 3% 30%;
   }
 }
