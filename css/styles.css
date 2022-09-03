@@ -133,3 +133,24 @@ h3 {
 .col-pricing {
   padding: 3% 2%;
 }
+
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    line-height: 1.5;
+  }
+
+  .title-image {
+    transform: rotate(0);
+    position: static;
+    transform: scale(1.0);
+  }
+
+  .testimonial-text {
+    font-size: 1.0rem;
+  }
+}
