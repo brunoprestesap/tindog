@@ -7,13 +7,14 @@ h1 {
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: bold;
+  /* padding: 5%; */
 }
 
 h2 {
-  padding: 0 15%;
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 3rem;
+  /* font-weight: 700; */
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 h3 {
@@ -70,15 +71,20 @@ h3 {
   position: relative;
 }
 
-.col-feature{
+.container-features {
+  text-align: center;
+
+}
+
+/* .col-feature{
   text-align: center;
   padding: 50px;
-}
+} */
 
 .ico-feature {
   color: #ef8172;
   size: 100%;
-  margin-bottom: 15%;
+  margin: 5% 5%;
 }
 
 .ico-feature:hover {
@@ -96,6 +102,10 @@ h3 {
   color: #fff;
   text-align: center;
   padding: 3% 15%;
+}
+
+#carouselTestimonials {
+  padding: 3% 5%;
 }
 
 /* .carousel-inner {
@@ -172,9 +182,20 @@ h3 {
     text-align: center;
   }
 
+  .container-fluid {
+    padding: 3% 3% 7%;
+  }
+
   h1 {
-    font-size: 1.8rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
     line-height: 1.5;
+    font-weight: bold;
+    padding: 5%;
+  }
+
+  .download-button {
+    margin: auto 3% 5% 0;
   }
 
   .title-image {
@@ -183,11 +204,29 @@ h3 {
     transform: scale(1.0);
   }
 
+  /* .col-feature{
+    text-align: center;
+    padding: 50px;
+  } */
+
+  #testimonials {
+    background-color: #ef8172;
+    color: #fff;
+    text-align: center;
+    padding: 3% 5%;
+  }
+
+  /* #carouselTestimonials {
+    padding: 3% 5%;
+  } */
+
   .testimonial-text {
-    font-size: 1.0rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
   }
 
   .col-pricing {
     padding: 3% 30%;
   }
+
 }
